@@ -4,3 +4,6 @@ A customisable lightweight CSS UI Kit with automatically generated shades (inclu
 <p style="text-align: center;">Dark Mode Example:</p>
 
 ![Screenshot](./docs/Screenshot.png)
+
+## Demo
+[Visit demo](https://daniel-samson.github.io/palette-kit/)
