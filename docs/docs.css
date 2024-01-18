@@ -1,0 +1,40 @@
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    text-align: left;
+    border: none;
+    outline: none;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+
+  .toolbar {
+    position: fixed;
+    z-index: 100;
+    max-width: 40ch;
+  }
+
+  .box {
+    border: 0.1rem solid black;
+    min-height: 1rem;
+    min-width: 1rem;
+  }
+
+  .theme-color {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+    padding: .5rem;
+    margin: 2px;
+    color: var(--color-50)
+  }
